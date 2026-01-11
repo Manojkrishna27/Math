@@ -6,3 +6,13 @@ for i in range(0,len(arr)):
     total+=arr[i]         # getting the sum of all values in array
 missing=excepted-total    # excepted-total =missing
 print(missing)
+
+# method 2 xor
+arr=[2,3,4,5]
+xor=0
+n=len(arr)+1
+for i in range(1,n+1):
+    xor^=i
+for i in arr:
+    xor^=i
+print(xor)
