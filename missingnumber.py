@@ -7,7 +7,7 @@ for i in range(0,len(arr)):
 missing=excepted-total    # excepted-total =missing
 print(missing)
 
-# method 2 xor
+# method 2 xor based
 arr=[2,3,4,5]
 xor=0
 n=len(arr)+1
