@@ -9,7 +9,7 @@ rev=0
 while num>0:
     digits=num%10        # we use modulus for getting last digits
     rev=rev*10+digits
-    num=num//10           # floor division is removing last digits
+    num//=10           # floor division is removing last digits
 
 if temp==rev:             # check  the temp equal to rev 
     print("palindrome")
