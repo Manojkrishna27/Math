@@ -1,4 +1,4 @@
-n=5
+n=6
 isprime=True
 if n<=1: # 1 and less than 1 is not a prime number 1 is unique number and less than 1 is negative number
     isprime=False   
